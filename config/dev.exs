@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :catcasts, Catcasts.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "abuzafar",
+  password: "",
   database: "catcasts_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
