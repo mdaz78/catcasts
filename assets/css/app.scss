@@ -1,5 +1,4 @@
 /* This file is for your main application css. */
-@import "./phoenix.css";
 
 /* Alerts and form errors */
 .alert {
@@ -29,3 +28,7 @@
 .alert:empty {
   display: none;
 }
+
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
